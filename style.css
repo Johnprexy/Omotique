@@ -183,14 +183,17 @@ body {
 
 #hero h4 {
   padding-bottom: 15px;
+  
 }
 
 #hero h1 {
     color: #088178;
+    font-size: 50px;
 }
 
 #hero h2 {
     color: #080135;
+    font-size: 40px;
 }  
 
 #hero p {
@@ -334,7 +337,7 @@ body {
 #product1 .pro .cart {
     width: 40px;
     height: 40px;
-    line-height: px;
+    line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
     color: #088178;
@@ -589,7 +592,7 @@ footer .copyright {
     }
 
 }
-@media (max-width: 799px) {
+@media (max-width: 999px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -682,22 +685,22 @@ footer .copyright {
     text-align: start;
 }
 
-@media (max-width: 477px) {
+@media (max-width: 799px) {
     .section-p1 {
-        padding: 20px;
+        padding: 10px;
     }
     #header {
-        padding: 10px 30px;
+        padding: 20px 50px;
     }
     h1 {
-        font-size: 38px;
+        font-size: 48px;
     }
     h2 {
-        font-size: 32px;
+        font-size: 52px;
     }
     #hero {
-        padding: 0 20px;
-        background-position: 55%;
+        padding: 10 20px;
+        background-position: 75%;
     }
     #feature {
         justify-content: space-between;
